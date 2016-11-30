@@ -60,6 +60,10 @@ body {
   -webkit-transition: all 0.1s;
 }
 
+.profile_url {
+  color: #fff;
+}
+
 .action-button {
   position: relative;
   padding: 10px 40px;
