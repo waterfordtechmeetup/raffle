@@ -1,0 +1,12 @@
+{
+  "name": "raffle",
+  "script": "/home/noded/raffle/index.js",
+  "out_file": "/home/noded/.pm2/logs/raffle-out-0.log",
+  "error_file": "/home/noded/.pm2/logs/raffle-err-0.log",
+  "pid_file": "/home/noded/.pm2/pids/raffle.pid",
+  "PORT": "8001",
+  "env": {
+    "MEETUP_KEY": "",
+    "MEETUP_EVENT_ID": ""
+  }
+}

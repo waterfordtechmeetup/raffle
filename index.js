@@ -12,8 +12,8 @@ app.get('/', function(req, res) {
 
 app.post('/draw', function(req, res) {
   var settings = {
-    key: process.env.KEY,
-    event_id: process.env.EVENT_ID
+    key: process.env.MEETUP_KEY,
+    event_id: process.env.MEETUP_EVENT_ID
   };
 
   raffle(settings, function(winner) {
@@ -28,6 +28,6 @@ if (!process.env.MEETUP_KEY || !process.env.MEETUP_EVENT_ID) {
   process.exit(-1);
 }
 
-app.listen(8000, function() {
-  console.log('Listening on 8000');
+app.listen(8001, function() {
+  console.log('Listening on 8001');
 });
