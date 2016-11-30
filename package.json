@@ -1,0 +1,17 @@
+{
+  "name": "raffle",
+  "version": "1.0.0",
+  "description": "Small web-app to draw for a raffle from RSVPs from Meetup.com events",
+  "main": "index.js",
+  "dependencies": {
+    "ejs": "^2.5.3",
+    "express": "^4.14.0",
+    "raffle": "^1.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jason Madigan <jason@jasonmadigan.com>",
+  "license": "MIT"
+}

@@ -1,0 +1,86 @@
+html,
+body {
+  background: #7bd2ed;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to left, #7bd2ed, #0e8591);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to left, #7bd2ed, #0e8591);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  color: #fff;
+  font-family: "Source Code Pro", Consolas, monospace;
+  height: 100%;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.hidden {
+  display: none;
+}
+
+.polaroid img {
+  border: 10px solid #fff;
+  display: block;
+  margin: 0 auto;
+  width: 220px;
+}
+
+.polaroid p {
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 0px;
+  font: 400 18px/1 'Kaushan Script', cursive;
+  color: #888;
+}
+
+#outer {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#inner {
+  width: 500px;
+  text-align: center;
+}
+
+.draw {
+  text-align: center;
+}
+
+.logo {
+  height: 200px;
+}
+
+.animate {
+  transition: all 0.1s;
+  -webkit-transition: all 0.1s;
+}
+
+.action-button {
+  position: relative;
+  padding: 10px 40px;
+  margin: 0px 10px 10px 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 25px;
+  color: #FFF;
+  text-decoration: none;
+}
+
+.red {
+  background-color: #E74C3C;
+  border-bottom: 5px solid #BD3E31;
+  text-shadow: 0px -2px #BD3E31;
+}
+
+.action-button:active {
+  transform: translate(0px, 5px);
+  -webkit-transform: translate(0px, 5px);
+  border-bottom: 1px solid;
+}
