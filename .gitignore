@@ -1,1 +1,3 @@
 node_modules
+app.pm2.json-prod
+.vscode

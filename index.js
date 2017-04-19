@@ -48,6 +48,12 @@ if (!process.env.MEETUP_KEY) {
   process.exit(-1);
 }
 
+meetup.getEvents({
+  group_urlname: 'Waterford-Tech-Meetup'
+}, function(err, resp) {
+  console.log(err, resp);
+});
+
 app.listen(8001, function() {
   console.log('Listening on 8001');
 });

@@ -6,7 +6,7 @@
   "dependencies": {
     "ejs": "^2.5.3",
     "express": "^4.14.0",
-    "meetup-api": "^1.4.10",
+    "meetup-api": "^0.1.27",
     "raffle": "^1.0.0"
   },
   "devDependencies": {},
